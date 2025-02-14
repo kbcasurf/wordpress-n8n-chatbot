@@ -31,16 +31,16 @@ add_action('wp_enqueue_scripts', 'oacb_enqueue_assets');
 function oacb_enqueue_assets() {
     wp_enqueue_style(
         'oacb-chat-style',
-        OACB_PLUGIN_URL . 'public/chabot-style.css',
+        OACB_PLUGIN_URL . 'public/chatbot-style.css',
         [],
-        filemtime(OACB_PLUGIN_DIR . 'public/chabot-style.css')
+        filemtime(OACB_PLUGIN_DIR . 'public/chatbot-style.css')
     );
 
     wp_enqueue_script(
         'oacb-chat-script',
-        OACB_PLUGIN_URL . 'public/chabot-script.js',
+        OACB_PLUGIN_URL . 'public/chatbot-script.js',
         ['jquery'],
-        filemtime(OACB_PLUGIN_DIR . 'public/chabot-script.js'),
+        filemtime(OACB_PLUGIN_DIR . 'public/chatbot-script.js'),
         true
     );
 
