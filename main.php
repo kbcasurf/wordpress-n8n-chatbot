@@ -1,10 +1,11 @@
 <?php
 /*
-Plugin Name: OpenAI Chatbot
-Description: AI-powered chatbot integrated with N8N
+Plugin Name: N8N ChatBot
+Plugin URI: https://aiservers.com.br/
+Description: ChatGPT-style interface for N8N AI Agent
 Version: 1.0
-Author: Your Name
-Text Domain: openai-chatbot
+Author: Paschoal Diniz
+Text Domain: n8n-chatbot
 */
 
 // Security checks
